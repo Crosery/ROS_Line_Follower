@@ -1,0 +1,8 @@
+<launch>
+    <!-- 启动你小车的底盘文件 -->
+
+    <!-- 启动 line_follower2_node 节点 -->
+    <node name="line_follower2_node" pkg="line_follower2" type="line_follower2_node" output="screen">
+    </node>
+
+</launch>

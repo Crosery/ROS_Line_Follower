@@ -1,0 +1,31 @@
+Visualization Manager:
+  Class: ""
+  Name: "root"
+  Panels:
+    - Class: rviz/Displays
+      Name: Displays
+  Toolbars:
+    - Class: rviz/Toolbar
+      Name: Toolbar
+  Tools:
+    - Class: rviz/Interact
+      Name: Interact
+  Displays:
+    - Class: rviz/Image
+      Enabled: true
+      Name: Image
+      Topic: /img_follow
+      Unreliable Transport: false
+      Zoom Factor: 2.0
+  Global Options:
+    Fixed Frame: base_link
+  Color:
+    A: 1.0
+    B: 0.0
+    G: 0.0
+    R: 0.0
+  Height: 1050
+  Hide Left Panel: false
+  Left Dock: true
+  Left Dock Width: 320
+  Perspective:
